@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header, .footer {
+  background-color: #6495ED;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.menu a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+.menu a:hover {
+  background-color: #555;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left, .content {
+  padding: 20px;
+}
+.left {
+  background-color: #333;
+  color: white;
+  flex: 1;
+}
+.content {
+  background-color: white;
+  flex: 3;
+}
+.images img {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+}
+.discount {
+  color: red;
+}
