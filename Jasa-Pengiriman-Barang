@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Jasa Pengiriman Barang</title>
+</head>
+<body>
+
+<div class="header">
+  <h1>Jasa Pengiriman Barang</h1>
+</div>
+
+<div class="menu">
+  <a href="#" onclick="showSection('Home')">Home</a>
+  <a href="#" onclick="showSection('kirim')">Kirim</a>
+  <a href="#" onclick="showSection('Transaksi')">Transaksi</a>
+  <a href="#" onclick="showSection('Tentang')">Tentang Kami</a>
+</div>
+
+<div class="row">
+  <div class="left">
+    <h2>Barang Dijamin Sampai Ke Tujuan</h2>
+  </div>
+
+  <section id="Home" class="content">
+    <h2>Selamat Datang Di Jasa Pengiriman Barang</h2>
+    <p>Kami Siap Mengirim Barang Anda Kemanapun</p>
+    <!-- Placeholder for images -->
+    <div class="images">
+      <!-- Images here -->
+    </div>
+    <marquee behavior="alternate"><span class="discount">Pengiriman Pertama Diskon 50%</span></marquee>
+  </section>
+
+  <!-- Other sections remain the same -->
+
+</div>
+
+<div class="footer">
+  <p>&copy; Jasa Pengiriman Barang</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
