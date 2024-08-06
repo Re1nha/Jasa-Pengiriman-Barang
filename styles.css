@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #6495ED;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu {
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu a:hover {
+  background-color: lightgray;
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  background-color: rgb(0, 0, 0);
+  width: 20%;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.content {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer {
+  background-color:#6495ED;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.hidden{
+  display: none;
+}
